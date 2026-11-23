@@ -85,7 +85,7 @@ INTO Services
 FROM raw_telco;
 
 
--- 3. TABLO: Sözleşme, Fatura ve Churn Tablosu (Billing_Contracts) - TEMİZLİK BURADA YAPILIYOR!
+-- 3. TABLO: Sözleşme, Fatura ve Churn Tablosu (Billing_Contracts) -
 -- (Hem fatura tablosunu ayırıyoruz, hem de 11 NULL değeri 0 yapıp faturaları sayıya (FLOAT) çeviriyoruz)
 SELECT 
     customerID,
